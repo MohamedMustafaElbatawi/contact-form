@@ -1,0 +1,538 @@
+* {
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* *,
+*:before,
+*:after {
+    box-sizing: inherit;
+} */
+body {
+    background-color: #00030050;
+    /* background: linear-gradient(#111, #222); */
+    /* background-image: linear-gradient(to right, #01022d, #000); */
+    /* min-height: 100vh; */
+    /* background: linear-gradient(to right, #000004e5, #06040478 30%),url(image/pexels-adria-masi-461420600-27962178.jpg) ; */
+
+}
+
+/* body {
+    min-height: 100vh;
+    width: 100%;
+    background: #c8e8e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px 50px 40px 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .content .left-side {
+    width: 25%;
+    height: 100%;
+    position: relative;
+}
+
+.container .content .left-side::before {
+    content: "";
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    background: #afafb6;
+    right: -35px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.content .left-side .datails {
+    margin: 14px;
+    text-align: center;
+}
+
+.content .left-side .datails i {
+    font-size: 30px;
+    color: #3e2093;
+    margin-bottom: 10px;
+}
+
+.content .left-side .datails .topic {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content .left-side .datails .text-one,
+.content .left-side .datails .text-two {
+    font-size: 14px;
+    color: #afafb6;
+}
+
+
+
+
+
+
+
+
+.container .content .right-side {
+    width: 75%;
+    margin-left: 70px;
+}
+
+.content .right-side .topic-text {
+    font-size: 23px;
+    font-weight: 600;
+    color: #3e2093;
+}
+
+.content .right-side .input-box {
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+}
+
+.content .right-side .input-box input,
+.content .right-side .input-box textarea {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #f0f1f8;
+    font-size: 16px;
+    border-radius: 9px;
+    padding: 0 15px;
+    resize: none;
+}
+
+.right-side .message-box {
+    min-height: 110px;
+    margin-top: 6px;
+}
+
+.right-side .button input[type="button"]{
+    color: #FFF;
+    font-size: 18px;
+    outline: none;
+    border-radius: 6px;
+    border: none;
+    padding: 8px 16px ;
+    background: #3e2093;
+    transition: .3s;
+    cursor: pointer;
+}
+.button input[type="button"]:hover{
+    background: #5029bc;
+} */
+
+
+
+
+/* br */
+
+
+
+
+
+.body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all{
+    background-color: #fff;
+    width: 80%;
+    padding: 30px 40px 20px 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px beige;
+    border-radius: 10px;
+}
+
+.fill3{
+    width: 25%;
+    margin-right:  20px;
+    text-align: center;
+}
+.fill3 .left{
+    margin-bottom: 14px ;
+} 
+.fill3 .left i{
+    font-size: 40px;
+    color: blue;
+    padding-bottom: 10px;
+}
+.fill3 .left .word{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fill3 .left .text-one,
+.fill3 .left .text-two{
+    font-size: 15px;
+    opacity: .8;
+}
+
+
+
+
+.side{
+    width: 75%;
+    padding: 10px;
+}
+
+.side .line-one{
+    font-size: 22px;
+    font-weight: 500;
+    color: blue;
+
+}
+.side p{
+    font-size: 17px;
+}
+
+.side form {
+    width: 100%;
+
+}
+.side form .input-text{
+    margin: 15px 0;
+    width: 100%;
+    position: relative;
+}
+.side form .input-text label{
+    position: absolute;
+    left: 12px;
+    top: 14px;
+    font-size: 14px;
+    opacity: .8;
+    transition: .3s;
+}
+.side form .input-text input:focus+label{
+    transform: translatey(-22px);
+    opacity: .9;
+    background-color: #fff;
+    padding: 0 4px;
+    left: 20px ;
+}
+.side form .input-text ::placeholder{
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+
+.side form .input-text input{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid #003 ;
+    background-color: #cccccc29;
+    outline: none;
+}
+
+.side form .input-text textarea{
+    width: 100%;
+    height: 90px;
+    font-size: 20px;
+    border: 1px solid #003 ;
+    outline: none;
+    padding: 5px 0;
+    background-color: #cccccc29;
+    resize: none;
+}
+.side form .button input{
+    width: 100px;
+    height: 34px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-color: blue;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 370px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container .logo {
+    padding: 20px;
+    font-size: 33px;
+    font-weight: 600;
+    background: linear-gradient(to left, blue, red);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+
+
+
+.container form {
+    margin: 25px 0;
+    position: relative;
+}
+form .input {
+    margin: 10px 0;
+}
+
+
+form .input input {
+    
+    padding: 9px 10px;
+    border-radius: 30px;
+    width: 80%;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.email label {
+    position: absolute;
+    top: 12px;
+    left: 53px;
+    font-size: 11px;
+    opacity: .4;
+    transition: .3s;
+}
+.email input:focus+label{
+    transform: translatey(-150%);
+    left: 60px;
+    opacity: .8;
+    background-color: #fff;
+    padding: 0 2px;
+}
+
+
+
+.password{
+    position: relative;
+}
+.password label{
+    position: absolute;
+    left: 60px;
+    top: 12px;
+    font-size: 12px;
+    opacity: .4;
+    transition: .3s;
+}
+.password input:focus+label{
+    top: -7px;
+    left: 60px;
+    background-color: #fff;
+    padding: 0 2px;
+}
+
+
+
+
+
+
+
+
+.revers {
+    width: 80%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.revers .left span {
+    font-size: 17px;
+}
+
+.revers .left input:checked+span {
+    color: red;
+}
+.revers .right p {
+    color: blue;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.revers .right p:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+.container .login input {
+    padding: 10px;
+    border-radius: 30px;
+    width: 80%;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    outline: none;
+    background: linear-gradient(to left, blue, red);
+    color: #fff;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+.container .login input:hover {
+    transform: scale(0.9);
+}
+
+
+
+.last{
+    margin-bottom: 20px;
+}
+.last p {
+    font-size: 17px;
+
+}
+.last p a {
+    font-size: 17px;
+    text-decoration: none;
+    color: blue;
+}
+.last p a:hover {
+    text-decoration: underline;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
